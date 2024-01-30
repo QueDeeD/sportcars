@@ -1,0 +1,241 @@
+*{
+    color: white;
+    font-family: 'Audiowide', sans-serif;
+}
+body{
+    background-image: url('https://w.wallhaven.cc/full/vq/wallhaven-vqze6p.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: white;      
+}
+header{
+    display: flex;
+    margin: 5px 25% 15px 25%;
+    text-align: center;
+    background: rgba(0,0,0, 0.9);
+    border: 4px solid black;
+}
+body h1{
+    color: white;
+}
+.hpic{
+    width: 70px;
+    height: 70px;
+    margin-right: 20%;
+}
+.hpic img{
+    width: 100%;
+    height: 100%;
+    min-width: 100px;
+    min-height: 70px;
+}
+.hhome{
+    margin: 2.5% 50px 0 50px;
+}
+.hmclaren{
+    margin: 2.5% 50px 0 50px;
+}
+.hacura{
+    margin: 2.5% 0 0 50px;
+}
+.carousel {
+    width: 96%;
+    display: flex;
+    flex-direction: row;            
+    margin-bottom: 2%;
+}
+.car{
+    width: 90%;
+    display: flex;
+    flex-direction: row;   
+    margin: 10px 2% 4px 2%;
+}
+.smldesc{
+    width: 50%;
+    margin-left: 1%;
+}
+.cover{
+    width: 50%;
+    display: flex;
+}
+.cover img{
+    width: 100%;
+    height: 100%;
+}
+.openable{
+    display: flex;    
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.sum{
+    size: 50px;
+}
+.desc{    
+    width: 50%;
+}
+.sbtn{
+    max-width: 150px;
+    max-height: 50px;   
+    min-width: 110px;
+    min-height: 35px;
+    background-color: black;
+    color: white;
+}
+.sbtn:hover{
+    color: black;
+    background-color: white;
+}
+.carousel-container {    
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-button {    
+    width: 30px;
+    height: 50px;    
+    border: solid;   
+    opacity: 50%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background: none;
+}
+
+.carousel-button:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    
+}
+
+h1{
+    margin-left: 10px;
+}
+.image-container2 {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    
+}
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.wrapper-1 {
+    transition: margin 1s;
+}
+
+.wrapper-2 {
+    transition: margin 1s;
+}
+
+.carousel-image {
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.rbutton{
+    border-color: transparent transparent transparent #d1d5db;
+    border-width: 30px 0 30px 30px;    
+}
+
+.lbutton{
+    border-color: transparent #d1d5db transparent transparent;
+    border-width: 30px 30px 30px 0;
+}
+
+@media (max-width: 1000px) {
+    .image-container {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .button-container {
+        margin-bottom: 0px;
+    }
+
+    .carousel-button {
+        display: none;
+    }    
+    .cover img{
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .carousel-container {
+        width: 100%;
+        height: 50vh;
+    }
+    .cover img{
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+.home {
+    height: 100%;
+    width: 100%;
+    max-height: 56px;
+    max-width: 56px;
+    margin: 2PX 2PX 0 0;
+    background: none;
+}  
+
+.techdesc {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;    
+    margin-bottom: 1.5%;
+  }
+.techdesc:hover{
+    background: rgba(0,0,0, 0.6);
+    border-top-right-radius: 200px;
+}
+  .char {  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;    
+  }
+  
+  .stat { 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    }
+.forms{    
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        margin: auto;
+        width: 80%;    
+}
+.f_line{
+    width: 550px;
+    height: 25px;
+    margin: auto;
+    text-align: left;
+    text-decoration: none;    
+}     
